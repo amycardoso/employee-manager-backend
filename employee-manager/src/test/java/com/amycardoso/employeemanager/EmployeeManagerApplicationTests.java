@@ -1,10 +1,10 @@
-package com.amycardoso.systemmonitoring;
+package com.amycardoso.employeemanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SystemMonitoringApplicationTests {
+class EmployeeManagerApplicationTests {
 
 	@Test
 	void contextLoads() {

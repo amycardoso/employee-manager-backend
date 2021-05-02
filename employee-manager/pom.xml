@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.amycardoso</groupId>
-	<artifactId>system-monitoring</artifactId>
+	<artifactId>employee-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>system-monitoring</name>
-	<description>Simples project to study the Spring Boot Actuator</description>
+	<name>employee-manager</name>
+	<description>Simple employee management</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -41,7 +41,23 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <artifactId>annotations</artifactId>
+            <groupId>org.jetbrains</groupId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
