@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @SpringBootApplication
 public class EmployeeManagerApplication {
 
-	@Value("${allowed-origins}")
+	@Value("${ALLOWED_ORIGINS}")
 	protected String[] allowedOrigins;
 
 	public static void main(String[] args) {
