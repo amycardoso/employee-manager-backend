@@ -1,5 +1,3 @@
-![GitHub deployments](https://img.shields.io/github/deployments/amycardoso/system-monitoring-dashboard/Production?label=Railway&logo=railway)
-
 # Employee Management API
 This repository contains the code for a RESTful web service with Spring Boot Actuator.
 Spring Actuator is used to monitor, gather metrics, understand an application's database traffic or state.
